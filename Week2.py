@@ -4,5 +4,11 @@ def greater(a,b):
     if b>a:
         return b
     
+#Hello is greater; strlen is greater
+print("The greater number is: " + greater("Hello","Hell"))
 
-print("The greater number is: " + str(greater(3,9)))
+#Hellp is greater; ASCII value of p is higher
+print("The greater number is: " + greater("Hello","Hellp"))
+
+#Hellpo is greater
+print("The greater number is: " + greater("Hello","Hellpo"))
