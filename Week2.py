@@ -1,8 +1,7 @@
 def greater(a,b):
     if a>b:
         return a
-    else:
-        return b
+    return b
     
 #Hello is greater; strlen is greater
 print("The greater number is: " + greater("Hello","Hell"))
